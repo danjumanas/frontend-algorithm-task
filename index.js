@@ -5,6 +5,7 @@ let errorMsg = `${n} is not a valid number but a/an ${parameterType}`;
 let number = parseInt(n, 10);
 if(!isNaN(number)){
 answer = (number-32)*(5/9);
+  answer = answer.toFixed(4);
 } else{
 answer = errorMsg;
 }
