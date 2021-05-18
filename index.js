@@ -1,4 +1,4 @@
-function changeFahrToCelsius(n){
+function convertFahrToCelsius(n){
 let answer;
 let type = typeof n;
 if (Array.isArray(n)){
